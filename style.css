@@ -5,6 +5,8 @@
   list-style: none;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  font-size: 14px;
+  font-weight: initial;
 }
 
 html, body, .main {
@@ -30,12 +32,34 @@ body {
           align-items: center;
 }
 
-.main-left {
+.main .main-left, .main .main-right {
   height: 100%;
+}
+
+.main-left {
   min-width: 360px;
   background-position: 45% 60%;
   background-image: url(/images/volga.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.main-right {
+  padding: 170px 50px 0;
+}
+
+.main-right .description {
+  max-width: 700px;
+  text-align: justify;
+  text-indent: 2rem;
+}
+
+.main-right .right_description_end {
+  margin-top: 2.1rem;
+  padding-bottom: 60px;
+}
+
+.main-right .form-container {
+  background-color: white;
 }
 /*# sourceMappingURL=style.css.map */
