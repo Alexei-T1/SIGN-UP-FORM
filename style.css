@@ -13,10 +13,12 @@
 html, body, .main {
   width: 100%;
   height: 100%;
+  overflow: hidden;
 }
 
 body {
-  background-color: rgba(202, 200, 200, 0.397);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(10%, #e3e8ee), color-stop(10%, #e3e8ee), color-stop(15%, #f9f9f9), color-stop(28%, #f9f9f9), color-stop(28%, #f9f9f9), color-stop(0%, #fafbfde7), color-stop(33%, #e9eef4), color-stop(35%, #e9eef4), color-stop(40%, #eaeaea), color-stop(45%, #eaeaea), color-stop(65%, #ecf3fd), color-stop(75%, #dce2f0), color-stop(80%, #eaecf0), color-stop(85%, #eaecf0), to(#a5acb6));
+  background: linear-gradient(#e3e8ee 10%, #e3e8ee 10%, #f9f9f9 15%, #f9f9f9 28%, #f9f9f9 28%, #fafbfde7 0%, #e9eef4 33%, #e9eef4 35%, #eaeaea 40%, #eaeaea 45%, #ecf3fd 65%, #dce2f0 75%, #eaecf0 80%, #eaecf0 85% #a5acb6 90%, #a5acb6 100%);
 }
 
 .main {
