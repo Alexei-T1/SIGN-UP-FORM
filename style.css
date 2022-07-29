@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Baloo+Chettan+2:wght@500&family=DM+Sans:wght@400;500&family=Edu+NSW+ACT+Foundation&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -53,6 +54,9 @@ body {
 
 .main-right .description {
   max-width: 700px;
+  font-family: "Edu NSW ACT Foundation", cursive;
+  font-size: 18px;
+  letter-spacing: 0.8px;
   text-align: justify;
   text-indent: 2rem;
   padding: 0 5px 0 50px;
@@ -60,6 +64,9 @@ body {
 
 .main-right .description_end {
   padding: 0 5px 0 50px;
+  font-family: "Architects Daughter", sans-serif;
+  font-size: 21px;
+  letter-spacing: 0.5px;
 }
 
 .main-right .right_description_end {
@@ -78,6 +85,12 @@ body {
   margin-bottom: 30px;
 }
 
+.main-right .only-way {
+  font-family: "Architects Daughter", sans-serif;
+  font-size: 16px;
+  letter-spacing: 3px;
+}
+
 .main-right .form {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -88,11 +101,18 @@ body {
   gap: 40px 70px;
 }
 
+.main-right .form label {
+  font-family: "DM Sans", serif;
+  font-weight: 500;
+}
+
 .main-right .form label input {
   margin-top: 6px;
 }
 
 .main-right .form input {
+  font-family: "DM Sans", serif;
+  font-weight: 400;
   display: block;
   height: 30px;
   width: 260px;
@@ -109,9 +129,17 @@ body {
 .main-right .button_container button {
   width: 235px;
   height: 50px;
+  font-family: "Baloo Chettan 2", sans-serif;
+  font-size: 18px;
+  letter-spacing: 1px;
 }
 
 .main-right .button_container a {
   margin-left: 6px;
+}
+
+.main-right .log-in {
+  font-family: "Baloo Chettan 2", sans-serif;
+  font-size: 16px;
 }
 /*# sourceMappingURL=style.css.map */
