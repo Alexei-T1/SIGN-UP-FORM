@@ -116,6 +116,23 @@ body {
   display: block;
   height: 30px;
   width: 260px;
+  border-radius: 5px;
+  border: 1px solid;
+}
+
+.main-right .form input:focus {
+  background-color: #e5eefa;
+  border: 2px solid #2968bb;
+  -webkit-transition: background-color 0.2s;
+  transition: background-color 0.2s;
+}
+
+.main-right .form .Error-pass {
+  background-color: #e4c2c2;
+}
+
+.main-right .form input:focus.Error-pass {
+  background-color: #e4c2c2;
 }
 
 .main-right .button_container {

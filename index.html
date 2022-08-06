@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
   <title>T - Sign up Form</title>
+  <script src="scrypt.js" defer></script>
 </head>
 <body>
   <main class="main">
@@ -26,23 +27,23 @@
           <form class="form container_form" action="#" id="form">
             <label for="first">
               <span>*</span>First name
-              <input type="text" name="first-name" id="first" required>
+              <input type="text" name="first-name" id="first" maxlength="35" required>
             </label>
             <label for="last">
               <span>*</span>Last name
-              <input type="text" name="" id="last" required>
+              <input type="text" name="last-name" id="last" maxlength="35" required>
             </label>
             <label for="email">
               <span>*</span>E-mail
-              <input type="email" name="" id="email" required>
+              <input type="email" name="email" id="email" required>
             </label>
             <label for="phone">
               Phone number
-              <input type="tel" name="" id="phone">
+              <input type="tel" name="phone" id="phone">
             </label>
             <label for="password">
               <span>*</span>Password
-              <input type="password" name="" id="password" required>
+              <input type="password" name="pass" id="password" maxlength="45" required>
             </label>
             <label for="confirm-password">
               <span>*</span>Confirm password
@@ -59,6 +60,6 @@
         </div>
       </div>
     
-  </main>`
+  </main>
 </body>
 </html>
