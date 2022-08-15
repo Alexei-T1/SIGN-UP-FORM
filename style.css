@@ -139,13 +139,12 @@ body {
   padding: 0 5px 0 50px;
 }
 
-.main-right .button_container .container_button {
-  margin-bottom: 40px;
-}
-
 .main-right .button_container button {
   width: 235px;
   height: 50px;
+  border: 1px solid;
+  border-radius: 5px;
+  margin-bottom: 40px;
   font-family: "Baloo Chettan 2", sans-serif;
   font-size: 18px;
   letter-spacing: 1px;
@@ -153,6 +152,41 @@ body {
 
 .main-right .button_container a {
   margin-left: 6px;
+}
+
+.main-right .button-send {
+  background-color: white;
+  -webkit-box-shadow: 2px 3px 3px #383838, inset 0px 0px 0px #383838;
+          box-shadow: 2px 3px 3px #383838, inset 0px 0px 0px #383838;
+  z-index: 10;
+}
+
+.main-right .button-send:active {
+  position: relative;
+  -webkit-box-shadow: 0px 0px 5px #383838, inset 2px 3px 3px #383838;
+          box-shadow: 0px 0px 5px #383838, inset 2px 3px 3px #383838;
+  -webkit-transition: -webkit-box-shadow 0.15s ease-in;
+  transition: -webkit-box-shadow 0.15s ease-in;
+  transition: box-shadow 0.15s ease-in;
+  transition: box-shadow 0.15s ease-in, -webkit-box-shadow 0.15s ease-in;
+}
+
+.main-right .button-send::before {
+  position: absolute;
+  content: "";
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  opacity: 0;
+  z-index: -1;
+}
+
+.main-right .button-send:active::before {
+  opacity: 1;
+  background-image: radial-gradient(ellipse, #ffffff 5%, #6099e4);
+  -webkit-transition: opacity 0.2s ease-out;
+  transition: opacity 0.2s ease-out;
 }
 
 .main-right .log-in {
