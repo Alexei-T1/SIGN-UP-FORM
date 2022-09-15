@@ -18,3 +18,13 @@ function checkSame(e) {
   }
 
 }
+
+const buttonSend = document.querySelector('.button-send');
+const imageT = document.querySelector('.logo_container');
+
+buttonSend.onclick = () => {
+  imageT.classList.add('rotate_logo');
+  imageT.ontransitionend = () => {
+    imageT.classList.remove('rotate_logo');
+  } 
+}

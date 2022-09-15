@@ -63,6 +63,16 @@ body {
   transition: opacity 0.7s;
 }
 
+.main-left .rotate_logo {
+  -webkit-transition: all 1s linear;
+  transition: all 1s linear;
+  -webkit-transform: rotate(1turn);
+          transform: rotate(1turn);
+  -webkit-filter: blur(0px);
+          filter: blur(0px);
+  opacity: 1;
+}
+
 .main-left .logo_container:hover {
   opacity: 1;
   -webkit-transition: opacity 0.9s;
