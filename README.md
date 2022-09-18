@@ -1,6 +1,6 @@
 # SIGN-UP-FORM
 
-educational project - The Odin Project
+educational project - [The Odin Project](https://www.theodinproject.com/)
 
 ## Using CSS and JS for Form validation
 
