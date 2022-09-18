@@ -51,7 +51,7 @@ body {
   position: relative;
   min-width: 360px;
   background-position: 45% 60%;
-  background-image: url(/images/volga.jpg);
+  background-image: url(./images/volga.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
