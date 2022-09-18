@@ -10,4 +10,4 @@ educational project - The Odin Project
 
 - [Link to the Assignment](https://www.theodinproject.com/paths/full-stack-javascript/courses/intermediate-html-and-css/lessons/sign-up-form)
 
-![image](https://github.com/Alexei-T1/SIGN-UP-FORM/tree/main/images/Screenshot_SIGN-UP-FORM.png)
+![image](https://github.com/Alexei-T1/SIGN-UP-FORM/blob/63416e30364baf8dc5862f0291269958acc98477/images/Screenshot_SIGN-UP-FORM.png)
