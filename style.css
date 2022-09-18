@@ -166,6 +166,10 @@ body {
   transition: background-color 0.2s;
 }
 
+.main-right .form input:invalid:focus {
+  background-color: #e4c2c2;
+}
+
 .main-right .form .Error-pass {
   background-color: #e4c2c2;
 }
